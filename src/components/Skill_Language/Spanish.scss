@@ -1,0 +1,30 @@
+@import "../../styles/_colors.scss";
+@import "../../styles/_fonts.scss";
+
+.language {
+  position: relative;
+  max-width: 30px;
+  min-height: 50px;
+  padding: 0px 250px;
+  margin-left: -167px;
+  margin-top: 50px;
+}
+  .spanishLevel {
+    height: 10px;
+    width: 980%;
+    background: $color-card;
+    border-radius: 20px;
+    position: relative;
+    &__progress {
+      height: 10px;
+      width: 100%;
+      background: $color-secondary;
+      border-radius: 20px;
+      position: absolute;
+    }
+    &__text {
+      margin-left: 103%;
+      margin-top: -3%;
+    }
+   
+  }

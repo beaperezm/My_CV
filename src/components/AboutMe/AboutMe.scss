@@ -1,0 +1,133 @@
+@import "../../styles/_colors.scss";
+@import "../../styles/_fonts.scss";
+
+.aboutMe {
+  background: $color-primary;
+  color: $color-fontPrimary;
+}
+
+.aboutMeCard {
+  margin: auto;
+  &__title {
+    font-family: $font-secondary;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    padding: 88px 10px 38px;
+  }
+  &__description {
+    display: flex;
+    width: 85%;
+    margin: -7px 6%;
+    font-size: 18px;
+    background: $color-card;
+    padding: 1px; 
+    &_greeting {
+      color: $color-fontSecondary;
+      font-weight: bold;
+    }
+    &_info {
+      width: 92%;
+      margin: 20px 20px;
+      line-height: 155%;
+    }
+    &_span {
+      color: $color-secondary;
+      font-weight: bold;
+      padding: 35px;
+    }
+  }
+  &__softSkills {
+    padding: 3% 13%;
+    width: 96%;
+    background: linear-gradient($color-secondary 100%,rgba($color-card, 0.5) 100%);
+    box-shadow: 5px 5px 5px black;
+    &_list {
+      color: $color-fontTertiary;
+      margin-left: -50px;
+      text-align: left;
+
+    }
+  }
+}
+
+.buttonDownload {
+  min-width: 130px;
+  height: 40px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  border-radius: 5px;
+  z-index: 0;
+  background: $color-primary;
+  border: 2px solid $color-secondary;
+  color: $color-secondary;
+  left: 45%;
+  margin-top: 45px;
+}
+.buttonDownload:hover {
+  font-size: 25px;
+}
+.buttonDownload:hover:after {
+  height: 100%;
+  opacity: 1;
+}
+.buttonDownload:after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  transition: all 0.3s ease;
+  left: 0;
+  top: 0;
+  height: 0;
+  width: 100%;
+  background: $color-secondary;
+}
+
+.linkButton {
+  color: $color-fontPrimary;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: medium;
+  font-family: $font-secondary;
+}
+.linkButton:hover {
+  color: $color-fontTertiary;
+}
+
+@media screen and (max-width:992px) {
+  .aboutMeCard {
+    &__description {
+      display: inline-block;
+      line-height: 40px;
+      margin-left: 30px;
+    }
+    &__softSkills {
+      width: 72%;
+      margin-left: 1%;
+      &_list {
+        color: $color-fontTertiary;
+        margin-left: -10px;
+        text-align: left;
+        line-height: 25px;
+      }
+    }
+  }
+}
+
+
+@media screen and (max-width:768px) {
+  .aboutMeCard {
+    &__description {
+      margin-left: 18px;
+    }
+    &__softSkills {
+      &_list {
+        margin-left: -15px;
+      }
+    }
+  }
+  .buttonDownload {
+    left: 38%;
+  }
+}

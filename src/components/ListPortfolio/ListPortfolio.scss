@@ -1,0 +1,24 @@
+@import "../../styles/_colors.scss";
+@import "../../styles/_fonts.scss";
+
+.listPortfolio {
+  background: $color-primary;
+  color: $color-fontPrimary;
+  padding: 50px, 20px;
+  height: auto;
+
+  &__content {
+    font-family: $font-secondary;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    padding: 109px 10px 18px;
+  }
+  &__allData {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+  }
+}
+

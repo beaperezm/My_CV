@@ -1,0 +1,45 @@
+@import '../../styles/_colors.scss';
+@import '../../styles/_fonts.scss';
+
+.education {
+    background: $color-primary;
+    color: $color-fontPrimary;
+    padding: 50px, 20px;
+    margin-bottom: -30px;
+    &__content {
+        font-family: $font-secondary;
+        font-size: 50px;
+        font-weight: bold;
+        text-align: center;
+        padding: 150px 10px 38px;
+    }
+    &__list {
+        width: 50%;
+        font-size: 18px;
+        margin-left: 25.5%;
+        list-style-type: none;
+        line-height: 27px;
+    }
+    &__card {
+        background-color: rgba($color-card, 0.3);
+        padding: 25px;
+        margin-bottom: 30px;
+        border-right: 2px solid $color-secondary;
+        &_date {
+            background-color: $color-secondary;
+            padding-left: 5px;
+            width: 40%;
+            color: $color-primary;
+            font-weight: bold;
+        }
+        &_name {
+            font-size: larger;
+            padding-top: 6px;
+        }
+        &_where {
+            color: $color-secondary;
+            font-weight: bold;
+            padding-top: 3px;
+        }
+    }
+}

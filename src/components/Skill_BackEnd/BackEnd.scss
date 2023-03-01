@@ -1,0 +1,35 @@
+@import "../../styles/_colors.scss";
+@import "../../styles/_fonts.scss";
+
+.programmingLanguage {
+    margin: 50px 50px;
+    position: relative;
+    max-width: 30px;
+    min-height: 50px;
+  
+    &__backEnd img {
+      width: 309.6%;
+      margin-left: -20px;
+      object-fit: cover;
+      cursor: pointer;
+    }
+    &__backEnd h2 {
+      background-color: $color-card;
+      border-radius: 7px;
+      text-align: center;
+      width: 289%;
+      padding: 2px;
+      position: absolute;
+      transform: translate(0, 2px);
+      opacity: 0;
+      font-family: $font-secondary;
+      font-size: 18px;
+    }
+    &__backEnd:hover h2{
+     transform: translate(0, -20px);
+     opacity: 1;
+     transition: all .5s ease-in-out;
+  
+    }
+  }
+  

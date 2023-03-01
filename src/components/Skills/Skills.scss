@@ -1,0 +1,58 @@
+@import "../../styles/_colors.scss";
+@import "../../styles/_fonts.scss";
+
+.skills {
+  background: $color-primary;
+  color: $color-fontPrimary;
+  padding: 50px, 20px;
+  width: 100%;
+  margin-bottom: -30px;
+  &__content {
+    font-family: $font-secondary;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    padding: 122px 10px 38px;
+  }
+  &__allData {
+    padding: 35px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px 35px;
+
+    &_frontEnd {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+    }
+    &_backEnd {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+    }
+    &_design {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+    }
+    &_english {
+      margin-left: -20%;
+    }
+    &_spanish {
+      margin-left: -20%;
+    }
+  }
+  &__allData p {
+    background: $color-secondary;
+    border-radius: 20px;
+    color: $color-primary;
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+  }
+  }
+
+
+
+
