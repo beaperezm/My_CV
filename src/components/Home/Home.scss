@@ -14,7 +14,6 @@
    &__card {
     padding: 20px;
     background: $color-primary;
-    height: 55vh;
     border-radius: 32px;
     text-align: center;
     max-width: 350px;
@@ -36,6 +35,7 @@
         background: $color-secondary;
         border-radius: 100%;
         width: 80%;
+        margin-top: 3%
    }
 
     .gitHub {
@@ -63,6 +63,6 @@
     display: inline-block;
     font-size: 24px;
     height: 32px;
-    margin: 20px;
+    margin: 11px 3px 42px;
     transition: .3s;
   }
