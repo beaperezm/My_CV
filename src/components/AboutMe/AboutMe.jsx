@@ -17,7 +17,7 @@ function AboutMe({ aboutMe, id, title, softSkills }) {
               return (
                 <div id={id} key={JSON.stringify(info)}>
                   <p className="aboutMeCard__description_info">
-                    <span className="aboutMeCard__description_greeting"> {info.info0} </span> {info.info1} {info.info2} {info.info3}
+                    <span className="aboutMeCard__description_greeting"> {info.info0} </span> {info.info1}
                   </p>
                   <p className="aboutMeCard__description_info">
                      {info.info2}
