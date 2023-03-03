@@ -7,7 +7,7 @@ import Education from './Education/Education.jsx'
 import Experience from './Experience/Experience.jsx';
 import Skills from './Skills/Skills.jsx';
 import ListPortfolio from './ListPortfolio/ListPortfolio.jsx';
-// import Contact from './Contact/Contact.jsx';
+import Contact from './Contact/Contact.jsx';
 import { CV } from '../CV/CV';
 
 
@@ -26,7 +26,7 @@ function App() {
       <Experience experience={experience} id="experience" title="Experiencia"/>
        <Skills id="skills" frontEnd={skills.frontEnd} backEnd={skills.backEnd} design={skills.design} english={skills.english} spanish={skills.spanish} title="Competencias"/>
       <ListPortfolio id="portfolio" portfolio={portfolio} title="Portfolio"/>
-      {/* <Contact id="contact" myInfo={myInfo} title="Contacto"/> */}
+      <Contact id="contact" myInfo={myInfo} title="Contacto"/>
 
     </div>
   );

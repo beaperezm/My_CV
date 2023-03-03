@@ -4,9 +4,12 @@
 .aboutMe {
   background: $color-primary;
   color: $color-fontPrimary;
+  //padding: 50px, 20px;
+  //height: 84vh;
 }
 
 .aboutMeCard {
+  //max-width: 2500px;
   margin: auto;
   &__title {
     font-family: $font-secondary;
@@ -39,7 +42,7 @@
   }
   &__softSkills {
     padding: 3% 13%;
-    width: 96%;
+    width: 56%;
     background: linear-gradient($color-secondary 100%,rgba($color-card, 0.5) 100%);
     box-shadow: 5px 5px 5px black;
     &_list {
@@ -49,6 +52,15 @@
 
     }
   }
+}
+
+.buttonDownloadArrow{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  width: 10%;
+  margin-left: 38%;
 }
 
 .buttonDownload {
@@ -94,6 +106,19 @@
 .linkButton:hover {
   color: $color-fontTertiary;
 }
+
+@media screen and (max-width: 1200px) {
+  .buttonDownloadArrow{
+    margin-left: 40%;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .buttonDownloadArrow{
+    margin-left: 42%;
+  }
+}
+  
 
 @media screen and (max-width:992px) {
   .aboutMeCard {

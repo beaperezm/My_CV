@@ -1,6 +1,6 @@
 import React from "react";
 import "./AboutMe.scss";
-import { HashLink as Link } from "react-router-hash-link";
+import CV from "../../assets/pdf/BeatrizPerez.pdf"
 
 function AboutMe({ aboutMe, id, title, softSkills }) {
   return (
@@ -37,11 +37,15 @@ function AboutMe({ aboutMe, id, title, softSkills }) {
           </div>
         </div>
 
-        {/* <div className="buttonDownloadArrow">
+        <div className="buttonDownloadArrow">
           <button className="buttonDownload">
-            <Link className="linkButton">Descargar CV</Link>
+            <a href={CV} className="linkButton" download={''}>Descargar CV</a>
           </button>
-        </div> */}
+
+          <button className="buttonDownload">
+            <a href={CV} className="linkButton" target={'_blank'} rel="noreferrer">Ver CV</a>
+          </button>
+        </div>
    
       </section>
     </>

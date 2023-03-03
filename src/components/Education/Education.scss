@@ -43,3 +43,12 @@
         }
     }
 }
+
+@media screen and(max-width: 768px) {
+    .education {
+        &__list{
+            width: 70%;
+            margin-left: 16%;
+        }
+    }
+}

@@ -4,9 +4,9 @@
 .skills {
   background: $color-primary;
   color: $color-fontPrimary;
-  padding: 50px, 20px;
+  //padding: 50px, 20px;
   width: 100%;
-  margin-bottom: -30px;
+  margin-bottom: -1px;
   &__content {
     font-family: $font-secondary;
     font-size: 50px;
@@ -19,7 +19,7 @@
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    padding: 20px 35px;
+    //padding: 20px 35px;
 
     &_frontEnd {
       display: flex;

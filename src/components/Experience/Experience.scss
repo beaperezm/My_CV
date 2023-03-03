@@ -44,3 +44,12 @@
         }
     }
 }
+
+@media screen and(max-width: 768px) {
+    .experience {
+        &__list{
+            width: 75%;
+            margin-left: 13%;
+        }
+    }
+}

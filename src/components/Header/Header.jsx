@@ -43,9 +43,9 @@ function Header({ myInfo }) {
             <Link className="link" smooth to="#portfolio"> Portfolio</Link>
           </li>
 
-          {/* <li className="list__contacto">
+          <li className="list__contacto">
             <Link className="link" smooth to="#contact"> Contacto</Link>
-          </li> */}
+          </li>
         </ul>
         <FaBars className="hamburguer" onClick={handleClick} />
       </div>

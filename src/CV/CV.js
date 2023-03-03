@@ -30,7 +30,7 @@ export const CV = {
         city: "Madrid, España",
         email: "bpml2001@hotmail.com",
         birthDate: "03/09/1983",
-        phone: "+34 652 666 666",
+        phone: "+34 652 819 442",
         aboutMe: [
            
             {
