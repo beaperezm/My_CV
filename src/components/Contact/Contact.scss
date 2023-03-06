@@ -45,7 +45,9 @@
    }
    &__subtitle {
     font-size: 19px;
-    color: darkgray
+    color: darkgray;
+    text-decoration: none;
+    cursor: pointer;
    }
 }
 
