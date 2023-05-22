@@ -13,6 +13,8 @@ import AfterEffects from '../images/after-effects.svg';
 import Illustrator from '../images/illustrator.svg';
 import Lightroom from '../images/lightroom.svg';
 import Photoshop from '../images/photoshop.svg';
+import Redux from '../images/redux.svg';
+import Typescript from '../images/typescript.svg';
 import NodeReact from '../images/proyecto_node_react.png'
 import NodeAngular from '../images/proyecto_node_angular.png'
 import NodeApi from '../images/Node_API.png'
@@ -63,7 +65,7 @@ export const CV = {
             info: "Actitud Positiva",
         },
         {
-            info: "Capacidad para desarrollar, objetivos claros e identificar actividades prioritarias",
+            info: "Capacidad para desarrollar objetivos claros e identificar actividades prioritarias",
         },
     ],
     
@@ -87,6 +89,17 @@ export const CV = {
     ],
 
     experience: [
+        {
+            name: "Desarrollo App móvil",
+            date: "2023-actualidad",
+            where: "Dropme Carpool",
+            description: [
+                
+                {
+                    info: "Colaboración para la mejora y mantenimiento de la app móvil",
+                }
+            ] 
+        },
         {
             name: "Diseñadora Gráfica",
             date: "2012-2022",
@@ -188,6 +201,16 @@ export const CV = {
                     img: React,
                     alt: "React JS.",
                     title: "React JS."
+                },
+                {
+                    img: Redux,
+                    alt: "Redux",
+                    title: "Redux"
+                },
+                {
+                    img: Typescript,
+                    alt: "Typescript",
+                    title: "Typescript"
                 },
                 {
                     img: Angular,
