@@ -15,12 +15,11 @@ import Lightroom from '../images/lightroom.svg';
 import Photoshop from '../images/photoshop.svg';
 import Redux from '../images/redux.svg';
 import Typescript from '../images/typescript.svg';
-import NodeReact from '../images/proyecto_node_react.png'
-import NodeAngular from '../images/proyecto_node_angular.png'
-import NodeApi from '../images/Node_API.png'
-import JavascriptApi from '../images/API_javascript.png'
-
-
+import Ionic from '../images/ionic.png';
+import NodeReact from '../images/proyecto_node_react.png';
+import NodeAngular from '../images/proyecto_node_angular.png';
+import NodeApi from '../images/Node_API.png';
+import JobiAngular from '../images/projecto_angular_jobi.png';
 
 
 
@@ -216,7 +215,12 @@ export const CV = {
                     img: Angular,
                     alt: "Angular",
                     title: "Angular"
-                },    
+                },
+                {
+                    img: Ionic,
+                    alt: "Ionic",
+                    title: "Ionic"
+                },      
             ],
              
             backEnd: [
@@ -301,6 +305,14 @@ export const CV = {
             title: "Api & Web My Dinos",
             info: "Node Js. & Angular",
             hrefCode:'https://github.com/beaperezm/project_angular_web'
+        },
+        {
+            img: JobiAngular,
+            href: 'https://jobi-liart.vercel.app/home',
+            alt: 'Angular',
+            title: "Api & Web Jobi",
+            info: "Node Js. & Angular",
+            hrefCode:'https://github.com/beaperezm/project_jobi_web'
         },
     ],
 
